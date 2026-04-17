@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Wellbeing Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Website for Community Wellbeing">
+    <meta name="keywords" content="Community Wellbeing Hub">
+    <meta name="author" content="Shishir Bhandari">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header slide_up_animation">
+        <div class="logo">
+            <img src="CWh.png" alt="Community Hub Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="service-directory.html">Service Directory</a>
+            <a href="events.html">Events</a>
+            <a href="booking.html">Booking and Registration</a>
+            <a href="news.html">News and Stories</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Banner Section -->
+    <div class="banner zoom_in_effect" style="padding: 2rem; margin-top: 2rem;">
+        <div
+            style="position: relative; width: 100%; max-width: 80rem; height: 36rem; margin: 0 auto; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);">
+            <img src="Pictures/homepage_banner.jpg" alt="Community Banner" fetchpriority="high"
+                style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.25); z-index: 1;"></div>
+            <div
+                style="position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; padding: 2rem 3rem; color:rgb(255, 255, 255);">
+                <h1 style="margin: 0 0 0.75rem;">Community Wellbeing Hub</h1>
+                <p style="margin: 0; max-width: 34rem; font-size: 1.1rem;">"Empowering our community to thrive together
+                    through shared resources and support."</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="container slide_up_animation bg-ice-blue"
+        style="padding: 4rem 2rem; text-align: center; margin-top: 2rem; border-radius: 0.5rem;">
+        <h2 class="section-title">Welcome to the Hub</h2>
+        <p style="font-size: 1.1rem; max-width: 50rem; margin: 0 auto; line-height: 1.6;">This platform is created to
+            support residents by providing easy access to local health and wellbeing services, events, and support
+            networks. Our goal is to foster a healthy, connected, and resilient community where everyone has the
+            resources they need to thrive.</p>
+    </div>
+
+    <!-- Events Section -->
+    <div class="events-section slide_up_animation bg-teal" style="padding: 4rem 0; margin-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">Upcoming Events</h2>
+            <!-- Grid Layout for Events -->
+            <div class="grid-container">
+                <div class="card zoom_in_effect">
+                    <img src="Pictures/Mindfulness.jpg" alt="Mindfulness Workshop"
+                        style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem;">
+                    <h3>Mindfulness Workshop</h3>
+                    <p>Learn techniques to manage stress and improve focus.</p>
+                    <a href="booking.html" class="btn">Register</a>
+                </div>
+                <div class="card zoom_in_effect">
+                    <img src="Pictures/Yoga.jpg" alt="Yoga in the Park"
+                        style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem;">
+                    <h3>Yoga in the Park</h3>
+                    <p>Join us for a relaxing yoga session in the community park.</p>
+                    <a href="booking.html" class="btn">Register</a>
+                </div>
+                <div class="card zoom_in_effect">
+                    <img src="Pictures/Nutrition.jpg" alt="Nutrition Seminar"
+                        style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem;">
+                    <h3>Nutrition Seminar</h3>
+                    <p>Learn to prepare nutritious, budget-friendly meals.</p>
+                    <a href="booking.html" class="btn">Register</a>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="events.html" class="btn">More Events</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Community News and Stories Section -->
+    <div class="news-section slide_up_animation bg-ice-blue" style="padding: 4rem 0; margin-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">Community News and Success Stories</h2>
+            <div class="grid-container">
+                <div class="card zoom_in_effect bg-teal">
+                    <h3>Community News</h3>
+                    <div class="card bg-white-card" style="margin-top: 1.5rem;">
+                        <h4>New Hub Opening</h4>
+                        <p>We are thrilled to announce the opening of our new community hub center.</p>
+                        <a href="news.html" class="btn">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="card zoom_in_effect bg-teal">
+                    <h3>Success Stories</h3>
+                    <div class="card bg-white-card" style="margin-top: 1.5rem;">
+                        <h4>A Journey to Wellness</h4>
+                        <p>Read about Sarah's inspiring journey to better mental and physical health.</p>
+                        <a href="news.html" class="btn">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="news.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact-section slide_up_animation bg-ice-blue"
+        style="padding: 4rem 0; text-align: center; margin-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="grid-container" style="margin-bottom: 2rem;">
+                <div class="card zoom_in_effect contact-card" style="border-top: 4px solid  #F97316;;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">👤</div>
+                    <h4 style="color: var(--primary);">Contact Person</h4>
+                    <p style="margin: 0; font-weight: 600;">Shishir Bhandari</p>
+                </div>
+                <div class="card zoom_in_effect contact-card" style="border-top: 4px solid  #F97316;;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📍</div>
+                    <h4 style="color: var(--accent);">Address</h4>
+                    <p style="margin: 0; font-size: 0.9rem;">Rainham Road North, Dagenham, RM10 7BN, LONDON</p>
+                </div>
+                <div class="card zoom_in_effect contact-card" style="border-top: 4px solid #F97316;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📞</div>
+                    <h4 style="color: #95460e;">Phone</h4>
+                    <p style="margin: 0; font-weight: 600;">020 7946 0000</p>
+                </div>
+                <div class="card zoom_in_effect contact-card" style="border-top: 4px solid #EC4899;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">✉️</div>
+                    <h4 style="color: #EC4899;">Email</h4>
+                    <p style="margin: 0; font-size: 0.9rem; word-break: break-all;">shishirbhandari800@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <a href="contact.html" class="btn btn-light-yellow">Contact Us</a>
+    </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="slide_up_animation">
+        <div class="footer-brand">
+            <h3>Community Hub</h3>
+            <p>Sustainable Living Made Easy.</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Facebook page">
+                    <img src="icons/facebook.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Instagram page">
+                    <img src="icons/instagram.png" alt="Instagram">
+                </a>
+
+                <a href="https://www.threads.net/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Threads page">
+                    <img src="icons/threads.png" alt="Threads">
+                </a>
+            </div>
+        </div>
+        <div>
+            <h4>Use cases</h4>
+            <a href="service-directory.html">Find Services</a>
+            <a href="events.html">Join Events</a>
+            <a href="events.html">Upcoming Events</a>
+            <a href="events.html">Event Calendar</a>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div>
+            <h4>Resources</h4>
+            <a href="news.html">Blog</a>
+            <a href="contact.html">Support</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

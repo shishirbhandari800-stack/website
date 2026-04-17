@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Community Wellbeing Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header slide_up_animation">
+        <div class="logo">
+            <img src="CWh.png" alt="Community Hub Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="service-directory.html">Service Directory</a>
+            <a href="events.html">Events</a>
+            <a href="booking.html">Booking and Registration</a>
+            <a href="news.html">News and Stories</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Introduction Section -->
+    <div class="banner slide_up_animation bg-ice-blue"
+        style="text-align: center; margin: 1rem auto 0; padding: 3rem 2rem; box-shadow: 0 4px 8px rgba(0,0,0,0.06);">
+        <h1>Events For Community Wellbeing</h1>
+        <p style="max-width: 700px; margin: 0.75rem auto 0;">All our services are statutory or commissioned by the
+            Council and the NHS. We work together to improve the care you receive. Find out more about the services we
+            offer below.</p>
+        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=600&fit=crop"
+            alt="Community Wellness Event"
+            style="width: 100%; max-width: 100%; margin: 1.5rem auto 0; display: block; object-fit: cover; border-radius: 1.5rem; height: 340px; box-shadow: 0 20px 60px rgba(13, 148, 136, 0.12);">
+    </div>
+
+    <!-- Events Grid Section -->
+    <div class="container slide_up_animation bg-teal" style="padding: 4rem 2rem; margin-top: 1rem;">
+        <p class="text-center" style="font-size: 2.5rem; margin-bottom: 2rem;">Choose an Event to join on.</p>
+        <div class="grid-container">
+            <div class="card zoom_in_effect">
+                <img src="Pictures/Mindfulness.jpg" alt="Mindfulness Workshop"
+                    style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem;">
+                <h3>Mindfulness Workshop</h3>
+                <p>Learn techniques to manage stress and improve focus.</p>
+                <a href="booking.html" class="btn">Register Now</a>
+            </div>
+            <div class="card zoom_in_effect">
+                <img src="Pictures/Yoga.jpg" alt="Yoga in the Park"
+                    style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem;">
+                <h3>Yoga in the Park</h3>
+                <p>Join us for a relaxing yoga session in the community park.</p>
+                <a href="booking.html" class="btn">Register Now</a>
+            </div>
+            <div class="card zoom_in_effect">
+                <img src="Pictures/Nutrition.jpg" alt="Nutrition Seminar"
+                    style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1rem;">
+                <h3>Nutrition Seminar</h3>
+                <p>Learn to prepare nutritious, budget-friendly meals.</p>
+                <a href="booking.html" class="btn">Register Now</a>
+            </div>
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+            <button class="btn">Load More</button>
+        </div>
+    </div>
+
+    <!-- Calendar Section -->
+    <div class="slide_up_animation bg-off-white" style="padding: 4rem 0; margin-top: 1rem;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">Calendar Date-Picker</h2>
+            <div class="grid-container" style="max-width: 60rem; margin: 0 auto;">
+                <div class="card zoom_in_effect bg-ice-blue">
+                    <h3>August 2025</h3>
+                    <div class="calendar">
+                        <div>S</div>
+                        <div>M</div>
+                        <div>T</div>
+                        <div>W</div>
+                        <div>T</div>
+                        <div>F</div>
+                        <div>S</div>
+                        <div class="calendar-day" onclick="selectDate(1)">1</div>
+                        <div class="calendar-day" onclick="selectDate(2)">2</div>
+                        <div class="calendar-day" onclick="selectDate(3)">3</div>
+                        <div class="calendar-day" onclick="selectDate(4)">4</div>
+                        <div class="calendar-day" onclick="selectDate(5)">5</div>
+                        <div class="calendar-day" onclick="selectDate(6)">6</div>
+                        <div class="calendar-day" onclick="selectDate(7)">7</div>
+                        <div class="calendar-day" onclick="selectDate(8)">8</div>
+                        <div class="calendar-day" onclick="selectDate(9)">9</div>
+                        <div class="calendar-day" onclick="selectDate(10)">10</div>
+                        <div class="calendar-day" onclick="selectDate(11)">11</div>
+                        <div class="calendar-day" onclick="selectDate(12)">12</div>
+                        <div class="calendar-day" onclick="selectDate(13)">13</div>
+                        <div class="calendar-day" onclick="selectDate(14)">14</div>
+                        <div class="calendar-day has-event" onclick="selectDate(15)">15</div>
+                        <div class="calendar-day" onclick="selectDate(16)">16</div>
+                        <div class="calendar-day" onclick="selectDate(17)">17</div>
+                        <div class="calendar-day" onclick="selectDate(18)">18</div>
+                        <div class="calendar-day" onclick="selectDate(19)">19</div>
+                        <div class="calendar-day has-event" onclick="selectDate(20)">20</div>
+                        <div class="calendar-day" onclick="selectDate(21)">21</div>
+                        <div class="calendar-day" onclick="selectDate(22)">22</div>
+                        <div class="calendar-day" onclick="selectDate(23)">23</div>
+                        <div class="calendar-day" onclick="selectDate(24)">24</div>
+                        <div class="calendar-day" onclick="selectDate(25)">25</div>
+                        <div class="calendar-day" onclick="selectDate(26)">26</div>
+                        <div class="calendar-day" onclick="selectDate(27)">27</div>
+                        <div class="calendar-day" onclick="selectDate(28)">28</div>
+                        <div class="calendar-day" onclick="selectDate(29)">29</div>
+                        <div class="calendar-day" onclick="selectDate(30)">30</div>
+                        <div class="calendar-day" onclick="selectDate(31)">31</div>
+                    </div>
+                </div>
+                <div class="card zoom_in_effect bg-ice-blue" id="event-details"
+                    style="display: flex; flex-direction: column; justify-content: center;">
+                    <h4>Selected Date</h4>
+                    <p>Click on a date with a green dot to see events.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Suggest Events Section -->
+    <div class="slide_up_animation bg-ice-blue" style="padding: 4rem 0; text-align: center; margin-top: 1rem;">
+        <div class="container">
+            <h2 class="section-title">Want to Suggest Some Events?</h2>
+            <div class="contact-info-grid">
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <img src="icons/Phone.png" alt="Phone Icon">
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+44-998909</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <img src="icons/mail.png" alt="Email Icon">
+                    </div>
+                    <h3>Email</h3>
+                    <p>contactemail@gmail.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <img src="icons/location.png" alt="Location Icon">
+                    </div>
+                    <h3>Location</h3>
+                    <p>Community Head Office</p>
+                </div>
+
+            </div>
+            <a href="contact.html" class="btn">Contact
+                Us</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="slide_up_animation">
+        <div class="footer-brand">
+            <h3>Community Hub</h3>
+            <p>Sustainable Living Made Easy.</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.threads.net/" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/threads.png" alt="Threads">
+                </a>
+            </div>
+        </div>
+        <div>
+            <h4>Use cases</h4>
+            <a href="service-directory.html">Find Services</a>
+            <a href="events.html">Join Events</a>
+            <a href="events.html">Upcoming Events</a>
+            <a href="events.html">Event Calendar</a>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div>
+            <h4>Resources</h4>
+            <a href="news.html">Blog</a>
+            <a href="contact.html">Support</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
